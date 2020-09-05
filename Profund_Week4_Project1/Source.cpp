@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include<math.h>
 #include<vector>
 
 using namespace std;
@@ -20,4 +19,5 @@ int main() {
 	for (int i = 0; i < Out.size(); i++) {
 		printf("%c", Out[Out.size()-1-i]);
 	}
+	return 0;
 }
