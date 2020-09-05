@@ -11,7 +11,7 @@ int main() {
 	printf("Enter Decimal number : ");
 	scanf("%lld", &In);
 	printf("Hexadecimal number : ");
-	if (In == 0, In == 1) {
+	if (In == 0 || In == 1) {
 		Out.push_back(hex[In]);
 	}
 	while(In > 0) {
